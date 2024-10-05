@@ -4,6 +4,18 @@ Responsive css file
  --------------------------------*/
 /* Genarel */
 @media (max-width: 450px) {
+.main-header,
+  .Hero-seciton,
+  .About-section,
+  .service-section,
+  .skill-section,
+  .resume-section,
+  .portfolio-seciton,
+  .Testimonial-section,
+  .contact-section,
+  .footer-section {
+    overflow: hidden;
+  }
   .heading-style2 {
     font-size: 30px;
     font-weight: 600;
