@@ -1,0 +1,405 @@
+/* ------------------------------
+Author : Shahedur Rahman
+Responsive css file
+ --------------------------------*/
+/* Genarel */
+@media (max-width: 450px) {
+  .heading-style2 {
+    font-size: 30px;
+    font-weight: 600;
+    font-style: normal;
+    color: aqua;
+    margin: 0;
+  }
+  .heading-style3 {
+    font-size: 60px;
+    font-weight: 900;
+    color: rgba(21, 27, 41, 0.5);
+    margin: 0px;
+    z-index: -13;
+    margin-top: -90px;
+    margin-left: 0px;
+  }
+  .heading-style4 {
+    font-size: 25px;
+  }
+}
+/* header section */
+@media (max-width: 450px) {
+  .header-logo,
+  .header-menu {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+  .header-style {
+    display: flex;
+    flex-direction: column;
+  }
+  .header-menu li a {
+    font-size: 14px;
+    align-self: center;
+  }
+}
+
+@media (max-width: 820px) {
+  .header-logo {
+    width: 100%;
+    display: flex;
+  }
+  .header-menu {
+    width: 75%;
+    display: flex;
+    justify-content: ;
+  }
+  .header-style {
+    display: flex;
+    flex-direction: ;
+  }
+  .header-menu li a {
+    font-size: 14px;
+    align-self: center;
+  }
+}
+
+@media (max-width: 1200px) {
+}
+/* Header section End */
+/* hero section */
+@media (max-width: 450px) {
+  .herosection {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .Hero-seciton {
+    padding-top: 367px;
+    margin-top: -159px;
+    height: 75vh;
+  }
+  .hero-text,
+  .hero-img {
+    width: 100%;
+  }
+  .hero-text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .heading-style1 {
+    font-size: 70px;
+    line-height: 70px;
+    text-align: center;
+  }
+  .hero-text p {
+    font-size: 18px;
+    margin: 0;
+  }
+  .hero-img {
+    background-image: url("/img/Web\ Developer.png");
+    background-size: contain;
+    height: 100vh; /* Optional: makes the body take the full height of the viewport */
+    margin: 0; /* Removes default margin */
+    margin-top: -164px;
+  }
+}
+@media (max-width: 820px) {
+  .herosection {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 120px 0px 0px 0px;
+  }
+  .hero-text,
+  .hero-img {
+    width: 100%;
+  }
+  .hero-img {
+    background-image: url("/img/Web\ Developer.png");
+    background-size: contain;
+    height: 100vh; /* Optional: makes the body take the full height of the viewport */
+    margin: 0; /* Removes default margin */
+  }
+  .hero-text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .heading-style1 {
+    font-size: 70px;
+    line-height: 70px;
+    text-align: center;
+  }
+  .hero-text p {
+    font-size: 18px;
+    margin: 0;
+  }
+}
+
+@media (max-width: 1200px) {
+  .hero-img {
+    background-image: url("/img/Web\ Developer.png");
+    background-size: contain;
+    height: 100vh; /* Optional: makes the body take the full height of the viewport */
+    margin: 0; /* Removes default margin */
+  }
+}
+/* hero section End*/
+
+/* about section */
+@media (max-width: 450px) {
+  .herosection {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 120px 0px 0px 0px;
+  }
+  .hero-text,
+  .hero-img {
+    width: 100%;
+  }
+  .hero-text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .heading-style1 {
+    font-size: 70px;
+    line-height: 70px;
+    text-align: center;
+  }
+  .hero-text p {
+    font-size: 18px;
+    margin: 0;
+  }
+  .hero-img {
+    background-image: url("/img/hero_img.png");
+    background-size: contain;
+    height: 100vh; /* Optional: makes the body take the full height of the viewport */
+    margin: 0; /* Removes default margin */
+    margin-top: -264px;
+  }
+}
+/* Hero section End */
+/* About section */
+@media (max-width: 450px) {
+  .about-title {
+    position: relative;
+  }
+  .About-section {
+    padding: 20px 0px 40px 0px;
+  }
+  .style-about {
+    position: absolute;
+    left: 30px;
+    top: 77px;
+    z-index: -1;
+  }
+  .about-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 0px;
+  }
+  .about-img,
+  .about-text {
+    width: 100%;
+  }
+  .about-text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+  }
+  .about-text h3,
+  h4,
+  p,
+  ul > li {
+    text-align: center;
+  }
+  .about-img {
+    background-image: url("/img/about_img.png");
+    background-size: contain;
+    background-position: center; /* This centers the image */
+    background-repeat: no-repeat;
+    margin-top: -120px;
+    margin-bottom: -120px; /* Removes default margin */
+  }
+  .about-text h4 {
+    font-size: 18px;
+  }
+  .about-text p {
+    font-size: 14px;
+  }
+}
+/* About End */
+/* Services Start */
+@media (max-width: 450px) {
+  .service-title {
+    position: relative;
+  }
+  .style-srv {
+    position: absolute;
+    left: 54px;
+    top: 85px;
+    z-index: -1;
+  }
+  .srvice-content,
+  .srv-cont {
+    padding: 70px 0px 50px 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 20px;
+  }
+  .srv-cont {
+    margin-top: -105px;
+  }
+  .icon-box {
+    width: 100%;
+  }
+}
+/* Service End */
+/* Skill Start  */
+@media (max-width: 450px) {
+  .skill-text,
+  .skill-progressbar {
+    width: 100%;
+  }
+  .skill-content {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    padding-top: 80px;
+  }
+  .style-skill {
+    position: absolute;
+    left: 54px;
+    top: 97px;
+    z-index: -1;
+  }
+}
+/* skill end */
+/* Start Resume  */
+@media (max-width: 450px) {
+  .style-rsm {
+    position: absolute;
+    left: 54px;
+    top: 97px;
+    z-index: -1;
+  }
+  .rsm-exp,
+  .rsm-edu {
+    width: 100%;
+    margin: 0;
+  }
+  .st-resume-heading {
+    display: flex;
+    align-items: center;
+    padding: 20px 0px 20px 10px;
+  }
+  .rsm-content {
+    padding-top: 50px;
+    display: flex;
+    flex-direction: column;
+  }
+  .st-resume-timeline .st-resume-timeline-title {
+    font-size: 18px;
+  }
+  .st-resume-timeline .st-resume-timeline-subtitle {
+    font-size: 15px;
+  }
+  .st-resume-timeline .st-resume-timeline-text p {
+    padding-right: 0px;
+    font-size: 13px;
+  }
+}
+
+/* resume seciton end */
+/* Portfolio section start */
+@media (max-width: 450px) {
+  .style-port {
+    position: absolute;
+    left: 54px;
+    top: 97px;
+    z-index: -1;
+  }
+  .port-top {
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 11px;
+    margin-left: -9px;
+    margin-top: 60px;
+  }
+  .port-bottom {
+    margin-top: 10px;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 11px;
+    margin-left: -9px;
+  }
+}
+/* Portfolio End */
+/* Testimonal Section */
+@media (max-width: 450px) {
+  .style-tst {
+    position: absolute;
+    left: 54px;
+    top: 97px;
+    z-index: -1;
+  }
+  .tst-card {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    margin-top: 80px;
+  }
+}
+/* testimonial End */
+/* Contact Section */
+@media (max-width: 450px) {
+  .contact-content {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 70px;
+  }
+  .contact-left,
+  .contact-right {
+    width: 100%;
+  }
+  .st-form-field input,
+  .st-form-field textarea {
+    display: block;
+    width: 83%;
+  }
+  .st-social-link {
+    margin-left: -41px;
+    gap: 52px;
+  }
+  .st-single-info-details h4 {
+    text-align: left;
+}
+.st-copyright-text{
+  font-size: 12px;
+}
+.st-social-info .st-social-text {
+  font-size: 17px;
+}
+.contact-right{
+  margin-top: 20px;
+}
+.st-contact{
+  margin-top: -121px;
+}
+
+}
