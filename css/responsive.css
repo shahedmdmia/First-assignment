@@ -139,7 +139,7 @@ Responsive css file
 
 @media (max-width: 1200px) {
   .hero-img {
-    background-image: url("/img/Web\ Developer.png");
+    background-image: url("../img/about_img.png");
     background-size: contain;
     height: 100vh; /* Optional: makes the body take the full height of the viewport */
     margin: 0; /* Removes default margin */
@@ -175,7 +175,7 @@ Responsive css file
     margin: 0;
   }
   .hero-img {
-    background-image: url("/img/hero_img.png");
+    background-image: url("../img/hero_img.png");
     background-size: contain;
     height: 100vh; /* Optional: makes the body take the full height of the viewport */
     margin: 0; /* Removes default margin */
@@ -221,7 +221,7 @@ Responsive css file
     text-align: center;
   }
   .about-img {
-    background-image: url("/img/about_img.png");
+    background-image: url("../img/about_img.png");
     background-size: contain;
     background-position: center; /* This centers the image */
     background-repeat: no-repeat;
