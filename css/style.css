@@ -700,6 +700,12 @@ p {
 }
 .style-tst {
   position: absolute;
+  left: 306px;
+  top: 60px;
+  z-index: -1;
+}
+.style-ts {
+  position: absolute;
   left: 406px;
   top: 60px;
   z-index: -1;
