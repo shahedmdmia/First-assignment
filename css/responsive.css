@@ -376,6 +376,12 @@ Responsive css file
     top: 97px;
     z-index: -1;
   }
+  .style-ts {
+    position: absolute;
+    left: 54px;
+    top: 97px;
+    z-index: -1;
+  }
   .tst-card {
     display: flex;
     flex-direction: column;
