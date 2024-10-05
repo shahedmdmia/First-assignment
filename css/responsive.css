@@ -52,6 +52,10 @@ Responsive css file
     font-size: 14px;
     align-self: center;
   }
+ .header-logo img {
+    width: 25%;
+    margin: 0;
+}
 }
 
 @media (max-width: 820px) {
